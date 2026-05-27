@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/users/Maciej/repos"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "name": "super-projekt",
+        "owner": { "login": "Adam" },
+        "fork": true
+      },
+      {
+        "name": "skopiowany-projekt",
+        "owner": { "login": "Adam" },
+        "fork": true
+      }
+    ]
+  }
+}

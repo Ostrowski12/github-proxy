@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/users/Adam/repos"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "name": "project",
+        "owner": { "login": "Adam" },
+        "fork": false
+      },
+      {
+        "name": "fork-project",
+        "owner": { "login": "Adam" },
+        "fork": true
+      }
+    ]
+  }
+}

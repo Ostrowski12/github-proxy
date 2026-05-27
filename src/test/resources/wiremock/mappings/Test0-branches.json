@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/repos/Adam/project/branches"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "name": "main",
+        "commit": { "sha": "1234567890abcdef" }
+      }
+    ]
+  }
+}
+
