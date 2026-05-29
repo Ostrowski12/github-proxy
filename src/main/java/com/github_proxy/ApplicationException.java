@@ -1,6 +1,6 @@
-package com.github_proxy.exceptions;
+package com.github_proxy;
 
-public class ApplicationException extends RuntimeException {
+class ApplicationException extends RuntimeException {
 
   private final ErrorCode errorCode;
 

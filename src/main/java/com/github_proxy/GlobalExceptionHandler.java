@@ -1,4 +1,4 @@
-package com.github_proxy.exceptions;
+package com.github_proxy;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

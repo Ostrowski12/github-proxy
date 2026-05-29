@@ -1,9 +1,5 @@
 package com.github_proxy;
 
-import com.github_proxy.exceptions.ApplicationException;
-import com.github_proxy.exceptions.ErrorCode;
-import com.github_proxy.responses.GithubBranchesResponse;
-import com.github_proxy.responses.GithubRepositoriesResponse;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.HttpClientErrorException;

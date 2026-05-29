@@ -1,8 +1,8 @@
-package com.github_proxy.records;
+package com.github_proxy;
 
 import java.util.List;
 
-public record RepositoryDTO(
+record RepositoryDTO(
         String repositoryName,
         String owner,
         List<BranchRecord> branches

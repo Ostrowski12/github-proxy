@@ -1,8 +1,8 @@
-package com.github_proxy.exceptions;
+package com.github_proxy;
 
 import org.springframework.http.HttpStatus;
 
-public enum ErrorCode {
+enum ErrorCode {
 
     USER_NOT_FOUND("User not found", HttpStatus.NOT_FOUND),
     BRANCH_NOT_FOUND("Branch not found", HttpStatus.NOT_FOUND);

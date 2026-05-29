@@ -1,7 +1,5 @@
 package com.github_proxy;
 
-import com.github_proxy.records.BranchRecord;
-import com.github_proxy.records.RepositoryDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
